@@ -17,9 +17,9 @@ print('Kue ' +kueA)
 
 #Slicing Text
 text9 = 'Hero 57'
-a = text9[0:4]
-b = text9[0:]
-c = text9[-2]
+a = text9[0:4] # Mengambil char dari text, dari index 0 sampai index 4
+b = text9[0:] # Mengambil char, dari index 0 sampai index terakhir
+c = text9[-2] # Mengambil char, dari 2 index terakhir dari text
 print(a)
 print(b)
 print(c)
